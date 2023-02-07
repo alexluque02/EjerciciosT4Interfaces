@@ -56,6 +56,12 @@ public class Publicacion implements IOperaciones{
 	public void prestar(Publicacion p) {
 		setPrestado(false);
 	}
+
+	@Override
+	public int calcularPrestados() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 	

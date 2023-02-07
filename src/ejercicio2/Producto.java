@@ -3,7 +3,7 @@ package ejercicio2;
 public class Producto implements IImpuestos{
 
 	public double calculoIva(double precio, int iva) {
-		return precio*iva/100;
+		return precio-precio*iva/100;
 	}
 
 	@Override
