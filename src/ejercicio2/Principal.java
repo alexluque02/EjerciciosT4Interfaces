@@ -33,6 +33,7 @@ public class Principal {
 				break;
 			default:
 				break;
+			}
 		}while(menu!=0);
 	}
 
